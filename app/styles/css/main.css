@@ -119,7 +119,7 @@ Body {
 .jumboTron {
   -ms-flex-positive: 1;
       flex-grow: 1;
-  background-image: url("img/home/LoL-bg.png");
+  background-image: url("../../img/home/LoL-bg.png");
   background-position: center;
   background-size: cover;
   color: #FFF; }
