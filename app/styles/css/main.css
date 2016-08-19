@@ -66,8 +66,6 @@ nav .mainNav {
   -ms-flex-direction: column;
       flex-direction: column;
   text-align: center; }
-  nav .mainNav li {
-    padding: 0.5em 0px; }
 
 Body {
   font-family: 'Montserrat', sans-serif;
@@ -76,10 +74,20 @@ Body {
 
 .button {
   display: inline-block;
-  padding: 0.5em 1em;
-  text-align: center;
-  font-weight: bold;
-  font-size: 1.2em; }
+  padding: 0.2em;
+  background-color: #FFF;
+  color: rgba(0, 0, 0, 0.87);
+  text-align: center; }
+
+.navbar .mainNav {
+  padding: 0.5em 0px; }
+  .navbar .mainNav li {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+        align-items: center;
+    -ms-flex-pack: center;
+        justify-content: center; }
 
 .navbar #logoNav {
   font-size: 2em; }
@@ -90,6 +98,14 @@ Body {
 
 .navbar p {
   display: inline-block; }
+
+@media only screen and (min-width: 1224px) {
+  .mainNav {
+    -ms-flex-direction: row !important;
+        flex-direction: row !important; }
+    .mainNav li {
+      -ms-flex-positive: 1;
+          flex-grow: 1; } }
 
 .benefitBar {
   text-align: center; }
@@ -112,6 +128,14 @@ Body {
   .benefitBar .icon {
     font-size: 2em;
     margin: 0px 0.5em; }
+
+@media only screen and (min-width: 1224px) {
+  .benefitBar {
+    -ms-flex-align: center;
+        -ms-grid-row-align: center;
+        align-items: center; }
+    .benefitBar .benefitItem {
+      width: 50%; } }
 
 .viewport {
   min-height: 100vh; }
@@ -154,11 +178,25 @@ Body {
   background-color: #212121;
   color: #FFF; }
   .botIntro .botImg {
+    -ms-flex-pack: center;
+        justify-content: center;
     padding: 1em; }
-  .botIntro .squidBotInfo .squidBotDescription {
-    background-color: #424242;
-    text-align: center; }
-    .botIntro .squidBotInfo .squidBotDescription .squidBotDescriptionText {
-      padding: 1em; }
-  .botIntro .squidBotInfo .botFeatures {
-    padding: 1em; }
+  .botIntro .squidBotInfo {
+    background-color: #64B5F6; }
+    .botIntro .squidBotInfo .squidBotDescription {
+      text-align: center; }
+      .botIntro .squidBotInfo .squidBotDescription .squidBotDescriptionText {
+        font-size: 1.5em;
+        padding: 1em; }
+    .botIntro .squidBotInfo .botFeatures ul li {
+      padding: 1em;
+      background-color: #424242;
+      margin: 1em; }
+
+@media only screen and (min-width: 1224px) {
+  .botIntro {
+    -ms-flex-direction: row;
+        flex-direction: row; }
+    .botIntro .botImg {
+      width: 50%;
+      padding: 10%; } }

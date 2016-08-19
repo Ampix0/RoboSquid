@@ -1,4 +1,12 @@
 .navbar {
+    .mainNav {
+        padding: 0.5em 0px;
+        li {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
     #logoNav {
         font-size: 2em;
     }
@@ -8,5 +16,14 @@
     }
     p {
         display: inline-block;
+    }
+}
+
+@media only screen and ($desktop) {
+    .mainNav {
+        flex-direction: row !important;
+        li {
+            flex-grow: 1;
+        }
     }
 }
