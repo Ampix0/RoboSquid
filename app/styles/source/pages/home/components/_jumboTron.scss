@@ -1,0 +1,62 @@
+.jumboTron {
+    flex-grow: 1;
+    background-image: url(../../../../../img/home/LoL-bg.png);
+    background-position: center;
+    background-size: cover;
+    color: #FFF;
+    #brandInquire {
+        font-size: 0.8em;
+        text-align: right;
+        padding: 2em;
+    }
+    .jumboTextContainer {
+        display: flex;
+        flex-grow: 1;
+        .jumboText {
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            flex-grow: 1;
+        }
+    }
+    #learnMore {
+        display: inline-block;
+        padding: 0.5em 1em;
+        border-radius: 2em;
+        background-color: transparent;
+        color: $white;
+        margin: 1em;
+        border: solid $white 0.2em;
+    }
+}
+
+.jumboTron {
+    flex-grow: 1;
+    background-image: url(../../../../../img/home/LoL-bg.png);
+    background-position: center;
+    background-size: cover;
+    color: #FFF;
+    #brandInquire {
+        font-size: 0.8em;
+        text-align: right;
+        padding: 2em;
+    }
+    .jumboTextContainer {
+        display: flex;
+        flex-grow: 1;
+        .jumboText {
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            flex-grow: 1;
+        }
+    }
+    #learnMore {
+        display: inline-block;
+        padding: 0.5em 1em;
+        border-radius: 2em;
+        background-color: transparent;
+        color: $white;
+        margin: 1em;
+    }
+}

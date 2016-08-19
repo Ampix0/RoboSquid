@@ -1,0 +1,38 @@
+//#######################
+//######BASE STYLES######
+//#######################
+//##Set body as main flexbox container## 
+Body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+//##Rows##
+.row {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+}
+
+//##Columns##
+.col {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+}
+
+//###########################
+//######BASE COMPONENTS######
+//###########################
+//##Navigation##
+nav {
+    .mainNav {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        li {
+            padding: 0.5em 0px;
+        }
+    }
+}

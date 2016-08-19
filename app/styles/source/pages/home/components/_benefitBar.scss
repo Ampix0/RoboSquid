@@ -1,0 +1,22 @@
+.benefitBar {
+    text-align: center;
+    .benefitItem {
+        margin: 1em;
+        padding: 0.5em;
+        .benefitIcon {
+            align-items: center;
+            justify-content: center;
+            max-width: 4.5em;
+        }
+    }
+    .col {
+        flex-direction: row;
+    }
+    .toolDescription {
+        flex-direction: column;
+    }
+    .icon {
+        font-size: 2em;
+        margin: 0px 0.5em;
+    }
+}

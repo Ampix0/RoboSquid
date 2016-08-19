@@ -1,0 +1,19 @@
+.botIntro {
+    background-color: $background-dark;
+    color: $white;
+    .botImg {
+        padding: 1em;
+    }
+    .squidBotInfo {
+        .squidBotDescription {
+            background-color: $background-mediumDark;
+            text-align: center;
+            .squidBotDescriptionText {
+                padding: 1em;
+            }
+        }
+        .botFeatures {
+            padding: 1em;
+        }
+    }
+}
