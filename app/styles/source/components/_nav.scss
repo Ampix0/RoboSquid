@@ -5,10 +5,14 @@
             display: flex;
             align-items: center;
             justify-content: center;
+            padding: 1em 0px;
         }
     }
-    #logoNav {
+    #logoNavContainer {
         font-size: 2em;
+        #logoNav{
+            flex-grow: 1;
+        }
     }
     .icon {
         margin: 0px 0.5em;
@@ -24,6 +28,9 @@
         flex-direction: row !important;
         li {
             flex-grow: 1;
+        }
+        .icon-bars {
+            display: none;
         }
     }
 }

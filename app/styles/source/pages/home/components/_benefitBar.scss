@@ -23,7 +23,8 @@
 
 @media only screen and ($desktop) {
     .benefitBar {
-        align-items: center;
+        flex-direction: row;
+        font-size: 1em;
         .benefitItem {
             width: 50%;
         }

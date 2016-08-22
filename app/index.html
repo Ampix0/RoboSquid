@@ -12,11 +12,15 @@
     <div class="row viewport">
         <nav class="row navbar">
             <ul class="mainNav">
-                <li id='logoNav'>
-                    <svg class="icon icon-logo_svg">
+                <li id="logoNavContainer">
+                   <span id="logoNav"><svg class="icon icon-logo_svg">
                         <use xlink:href="#icon-logo_svg"></use>
                     </svg>
                     <p>RoboSquid</p>
+                    </span>
+                    <svg class="icon icon-bars">
+                        <use xlink:href="#icon-bars"></use>
+                    </svg>
                 </li>
                 <li>About</li>
                 <li>Benefits</li>
@@ -67,7 +71,7 @@
                 </svg>
             </div>
             <div class="col toolDescription">
-                <h1>Grow your audience</h1>
+                <h1>Grow Audience</h1>
                 <p>Through promotion, community, tips, tools, and more. Guaranteed growth.</p>
             </div>
         </div>
@@ -79,7 +83,7 @@
             </div>
             <div class="col toolDescription">
                 <h1>Great Community</h1>
-                <p>Access to our exclusive forum for members for unique networking opportunities. Create, Ask, and Share!</p>
+                <p>Access our exlclusive community of creators, guides, assets and more!</p>
             </div>
         </div>
     </div>
@@ -89,11 +93,10 @@
         <div class="col botImg"> <img src="img/home/BotIntro.svg" alt="SquidBot intro"> </div>
         <div class="col squidBotInfo">
             <div class="row squidBotDescription">
-               <div class="squidBotDescriptionText">
-                                   <h1>Meet, SquidBot!</h1>
-                <p>SquidBot is the best automoderator in the business and does so much more. Completely hosted online.</p>
-               </div>
-
+                <div class="squidBotDescriptionText">
+                    <h1>Meet, SquidBot!</h1>
+                    <p>SquidBot is the best automoderator in the business and does so much more. Completely hosted online.</p>
+                </div>
             </div>
             <div class="row botFeatures">
                 <ul>
@@ -113,8 +116,8 @@
                         <h1>Sound Board</h1>
                         <p>Play sounds on command. Even let viewers use the sound board in exchange for currency. </li>
                 </ul>
+                <button class="button" id="learnMore" type="button">Learn More</button>
             </div>
-            <div class="row"> <a href="#" class="button">Learn More</a> </div>
         </div>
     </div>
     <!--#### </BotInto> Welcome to "NAME" bot-->

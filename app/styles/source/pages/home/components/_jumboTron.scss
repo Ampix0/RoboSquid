@@ -29,3 +29,9 @@
         border: solid $white 0.2em;
     }
 }
+
+@media only screen and ($desktop) {
+    .jumboTron {
+        font-size: 1.5em;
+    }
+}
