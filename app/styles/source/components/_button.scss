@@ -1,7 +1,19 @@
 .button {
     display: inline-block;
-    padding: 0.2em;
-    background-color: $white;
-    color: rgba(0, 0, 0, 0.87);
+    padding: 0.5em 1em;
+    margin: 1em;
+    border-width: 0.2em;
+    border-style: solid;
+    border-radius: 0.5;
+    background-color: transparent;
+}
+
+.button-white {
+    color: $white;
+    border-color: $white;
+}
+
+.buttonContainer {
     text-align: center;
+    font-size: 1.5em;
 }

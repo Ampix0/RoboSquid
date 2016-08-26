@@ -1,0 +1,36 @@
+footer {
+    display: flex;
+    background-color: $background-dark;
+    color: $white;
+    padding: 1.5em;
+    flex-grow: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-top: 0.5em solid $white;
+    .col {
+        padding: 1.5em;
+    }
+    .footerLogo {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 2em;
+        .icon {
+            font-size: 2em;
+        }
+        .icon,
+        p {
+            margin: 0.4em;
+        }
+    }
+}
+
+@media only screen and ($desktop) {
+    footer {
+        flex-direction: row;
+        .footerMenu {
+            flex-direction: row;
+        }
+    }
+}

@@ -1,11 +1,12 @@
 .icon {
-  display: inline-block;
-  width: 1em;
-  height: 1em;
-  stroke-width: 0;
-  stroke: currentColor;
-  fill: currentColor;
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
 }
+
 
 /* ==========================================
 Single-colored icons can be modified like so:
@@ -15,58 +16,78 @@ Single-colored icons can be modified like so:
 }
 ========================================== */
 
-.icon-logo_svg {
-  width: 1.6484375em;
-}
-
 .icon-bubbles {
-  width: 1.125em;
+    width: 1.125em;
 }
 
 .icon-users {
-  width: 1.125em;
+    width: 1.125em;
 }
 
 .icon-embed2 {
-  width: 1.25em;
+    width: 1.25em;
 }
 
 .icon-youtube2 {
-  width: 2.5087890625em;
+    width: 2.5087890625em;
+}
+
+.icon-Discord-Logo-Black {
+    width: 1.0205078125em;
+}
+
+.icon-logo_svg {
+    width: 1.6484375em;
+}
+
+.icon-bubbles {
+    width: 1.125em;
+}
+
+.icon-users {
+    width: 1.125em;
+}
+
+.icon-embed2 {
+    width: 1.25em;
+}
+
+.icon-youtube2 {
+    width: 2.5087890625em;
 }
 
 .icon-twitch2 {
-  width: 0.9999990165233612em;
+    width: 0.9999990165233612em;
 }
 
 .icon-tag {
-  width: 0.8454238213598728em;
+    width: 0.8454238213598728em;
 }
 
 .icon-print {
-  width: 0.9285733308643103em;
+    width: 0.9285733308643103em;
 }
 
 .icon-edit {
-  width: 0.9955341517925262em;
+    width: 0.9955341517925262em;
 }
 
 .icon-eye2 {
-  width: 0.9999980051070452em;
+    width: 0.9999980051070452em;
 }
 
 .icon-eye-slash {
-  width: 1.000001983717084em;
+    width: 1.000001983717084em;
 }
 
 .icon-bars {
-  width: 0.857143547385931em;
+    width: 0.857143547385931em;
 }
 
 .icon-calendar-o {
-  width: 0.9285702928900719em;
+    width: 0.9285702928900719em;
 }
 
 .icon-snapchat-ghost {
-  width: 0.9285672754049301em;
+    width: 0.9285672754049301em;
 }

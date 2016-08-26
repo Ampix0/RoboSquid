@@ -10,13 +10,14 @@
     }
     #logoNavContainer {
         font-size: 2em;
-        #logoNav{
+        #logoNav {
             flex-grow: 1;
         }
     }
     .icon {
         margin: 0px 0.5em;
         display: inline-block;
+        transition: transform $speedNormal;
     }
     p {
         display: inline-block;
