@@ -1,12 +1,18 @@
 .botIntro {
     background-color: $background-dark;
+    background-image: url("../../img/home/codeBG.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     color: $white;
+    h1 {
+        font-size: 2em;
+    }
     .botImg {
         justify-content: center;
-        padding: 25%;
+        padding: 2em;
     }
     .squidBotInfo {
-        background-color: $blue;
         .squidBotDescription {
             text-align: center;
             .squidBotDescriptionText {
@@ -17,15 +23,9 @@
         .botFeatures {
             ul {
                 li {
-                    padding: 1em;
-                    background-color: $background-mediumDark;
-                    margin: 1em;
-                    .botFeaturesIcons {
-                        margin: 1.5em;
-                        font-size: 2em;
-                        align-items: center;
-                        flex-direction: row;
-                    }
+                    padding: 1.5em;
+                    background-color: $blue;
+                    margin: 1em 0px 1em 1em;
                 }
             }
         }
@@ -36,8 +36,8 @@
     .botIntro {
         flex-direction: row;
         .botImg {
-            width: 50%;
-            padding: 10%;
+            width: 70%;
+            padding: 1em;
         }
     }
 }

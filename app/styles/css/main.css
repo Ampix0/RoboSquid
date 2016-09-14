@@ -167,7 +167,7 @@ footer {
 .benefitBar {
   text-align: center; }
   .benefitBar .benefitItem {
-    margin: 1em;
+    margin: 1.5em;
     padding: 0.5em; }
     .benefitBar .benefitItem .benefitIcon {
       -ms-flex-align: center;
@@ -181,7 +181,12 @@ footer {
         flex-direction: row; }
   .benefitBar .toolDescription {
     -ms-flex-direction: column;
-        flex-direction: column; }
+        flex-direction: column;
+    -ms-flex-pack: center;
+        justify-content: center;
+    -ms-flex-align: center;
+        -ms-grid-row-align: center;
+        align-items: center; }
   .benefitBar .icon {
     font-size: 2em;
     margin: 0px 0.5em; }
@@ -192,6 +197,9 @@ footer {
         flex-direction: row;
     font-size: 1em; }
     .benefitBar .benefitItem {
+      width: 50%; }
+    .benefitBar .toolDescription h1 {
+      word-break: none;
       width: 50%; } }
 
 .viewport {
@@ -229,38 +237,34 @@ footer {
 
 .botIntro {
   background-color: #212121;
+  background-image: url("../../img/home/codeBG.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   color: #FFF; }
+  .botIntro h1 {
+    font-size: 2em; }
   .botIntro .botImg {
     -ms-flex-pack: center;
         justify-content: center;
-    padding: 25%; }
-  .botIntro .squidBotInfo {
-    background-color: #64B5F6; }
-    .botIntro .squidBotInfo .squidBotDescription {
-      text-align: center; }
-      .botIntro .squidBotInfo .squidBotDescription .squidBotDescriptionText {
-        font-size: 1.5em;
-        padding: 1em; }
-    .botIntro .squidBotInfo .botFeatures ul li {
-      padding: 1em;
-      background-color: #424242;
-      margin: 1em; }
-      .botIntro .squidBotInfo .botFeatures ul li .botFeaturesIcons {
-        margin: 1.5em;
-        font-size: 2em;
-        -ms-flex-align: center;
-            -ms-grid-row-align: center;
-            align-items: center;
-        -ms-flex-direction: row;
-            flex-direction: row; }
+    padding: 2em; }
+  .botIntro .squidBotInfo .squidBotDescription {
+    text-align: center; }
+    .botIntro .squidBotInfo .squidBotDescription .squidBotDescriptionText {
+      font-size: 1.5em;
+      padding: 1em; }
+  .botIntro .squidBotInfo .botFeatures ul li {
+    padding: 1.5em;
+    background-color: #64B5F6;
+    margin: 1em 0px 1em 1em; }
 
 @media only screen and (min-width: 1224px) {
   .botIntro {
     -ms-flex-direction: row;
         flex-direction: row; }
     .botIntro .botImg {
-      width: 50%;
-      padding: 10%; } }
+      width: 70%;
+      padding: 1em; } }
 
 .hidden {
   display: none !important; }

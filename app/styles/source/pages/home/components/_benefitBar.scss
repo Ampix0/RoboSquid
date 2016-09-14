@@ -1,7 +1,7 @@
 .benefitBar {
     text-align: center;
     .benefitItem {
-        margin: 1em;
+        margin: 1.5em;
         padding: 0.5em;
         .benefitIcon {
             align-items: center;
@@ -14,6 +14,8 @@
     }
     .toolDescription {
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     .icon {
         font-size: 2em;
@@ -27,6 +29,12 @@
         font-size: 1em;
         .benefitItem {
             width: 50%;
+        }
+        .toolDescription {
+            h1 {
+                word-break: none;
+                width: 50%;
+            }
         }
     }
 }
