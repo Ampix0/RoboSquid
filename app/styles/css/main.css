@@ -72,14 +72,10 @@ Body {
   font-size: 14px;
   color: rgba(0, 0, 0, 0.87); }
 
-@-ms-viewport {
-  zoom: 1.0;
-  width: extend-to-zoom; }
-
-@viewport {
-  zoom: 1.0;
-  width: extend-to-zoom; }
-
+/*@viewport{
+    zoom: 1.0;
+    width: extend-to-zoom;
+}*/
 .button {
   display: inline-block;
   padding: 0.5em 1em;
