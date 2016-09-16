@@ -11,6 +11,17 @@
 .button-white {
     color: $white;
     border-color: $white;
+    &:hover {
+        background-color: rgba(255, 255, 255, 0.1);
+    }
+}
+
+.button-blue {
+    color: $blue;
+    border-color: $blue;
+    &:hover {
+        background-color: rgba(255, 255, 255, 0.1);
+    }
 }
 
 .buttonContainer {

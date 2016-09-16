@@ -4,3 +4,8 @@ Body {
     font-size: 14px;
     color: $text-black;
 }
+
+@viewport{
+    zoom: 1.0;
+    width: extend-to-zoom;
+}

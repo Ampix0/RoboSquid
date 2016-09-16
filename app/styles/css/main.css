@@ -72,6 +72,14 @@ Body {
   font-size: 14px;
   color: rgba(0, 0, 0, 0.87); }
 
+@-ms-viewport {
+  zoom: 1.0;
+  width: extend-to-zoom; }
+
+@viewport {
+  zoom: 1.0;
+  width: extend-to-zoom; }
+
 .button {
   display: inline-block;
   padding: 0.5em 1em;
@@ -84,6 +92,14 @@ Body {
 .button-white {
   color: #FFF;
   border-color: #FFF; }
+  .button-white:hover {
+    background-color: rgba(255, 255, 255, 0.1); }
+
+.button-blue {
+  color: #81D4FA;
+  border-color: #81D4FA; }
+  .button-blue:hover {
+    background-color: rgba(255, 255, 255, 0.1); }
 
 .buttonContainer {
   text-align: center;
@@ -212,7 +228,7 @@ footer {
   background-position: center;
   background-size: cover;
   color: #FFF; }
-  .jumboTron #brandInquire {
+  .jumboTron #signIn {
     font-size: 0.8em;
     text-align: right;
     padding: 2em; }
@@ -248,20 +264,27 @@ footer {
     -ms-flex-pack: center;
         justify-content: center;
     padding: 2em; }
-  .botIntro .squidBotInfo .squidBotDescription {
-    text-align: center; }
-    .botIntro .squidBotInfo .squidBotDescription .squidBotDescriptionText {
-      font-size: 1.5em;
-      padding: 1em; }
-  .botIntro .squidBotInfo .botFeatures ul li {
-    padding: 1.5em;
-    background-color: #64B5F6;
-    margin: 1em 0px 1em 1em; }
+  .botIntro .squidBotInfo {
+    -ms-flex-pack: center;
+        justify-content: center; }
+    .botIntro .squidBotInfo .squidBotDescription {
+      text-align: center; }
+      .botIntro .squidBotInfo .squidBotDescription .squidBotDescriptionText {
+        font-size: 1.5em;
+        padding: 1em; }
+    .botIntro .squidBotInfo .botFeatures ul li {
+      padding: 1.5em;
+      background-color: #81D4FA;
+      margin: 1em 0px 1em 1em; }
+      .botIntro .squidBotInfo .botFeatures ul li:hover {
+        background-color: #4FC3F7;
+        cursor: pointer; }
 
 @media only screen and (min-width: 1224px) {
   .botIntro {
     -ms-flex-direction: row;
-        flex-direction: row; }
+        flex-direction: row;
+    min-height: 100vh; }
     .botIntro .botImg {
       width: 70%;
       padding: 1em; } }

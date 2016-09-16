@@ -13,6 +13,7 @@
         padding: 2em;
     }
     .squidBotInfo {
+        justify-content: center;
         .squidBotDescription {
             text-align: center;
             .squidBotDescriptionText {
@@ -26,6 +27,10 @@
                     padding: 1.5em;
                     background-color: $blue;
                     margin: 1em 0px 1em 1em;
+                    &:hover {
+                        background-color: $blue-light;
+                        cursor: pointer;
+                    }
                 }
             }
         }
@@ -35,6 +40,7 @@
 @media only screen and ($desktop) {
     .botIntro {
         flex-direction: row;
+        min-height: 100vh;
         .botImg {
             width: 70%;
             padding: 1em;
